@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DreamPortalSuite">
+
+    <test name="DreamPortalTests">
+
+        <classes>
+
+            <class name="tests.HomePageTest"/>
+
+            <class name="tests.DiaryTest"/>
+
+            <class name="tests.SummaryTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
